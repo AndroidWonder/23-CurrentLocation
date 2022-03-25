@@ -2,8 +2,7 @@
    You can test it with the emulator extended controls.
    However, the emulator doesn't do periodic updates.
 
-   Run this application with targetSdk at API 23 or higher.
-   It will use the runtime permission capability to get GPS access.
+   The app will use the runtime permission capability to get GPS access.
    It first checks if the app has permission. If not,
    it will ask the user for permission and it will
    callback into the class for a yes or no .
